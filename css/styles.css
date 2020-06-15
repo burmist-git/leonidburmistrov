@@ -1,0 +1,656 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #775f60;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(5, 48, 167);
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo_vousparlez.png') no-repeat;
+  width:255px;
+  height:150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(1, 5, 243);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.1em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { 
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px blue;
+  border: 2px solid white;
+}
+
+#methods, #about-me, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid white;
+  overflow: hidden;
+}
+#methods:hover, #about-me:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #0816ce;
+}
+#methods {
+  background: url('../images/methods.png') no-repeat;
+  background-position: center;
+}
+#about-me {
+  background: url('../images/about-me.png') no-repeat;
+  background-position: center;
+
+}
+#methods span, #about-me span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 100%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 400px;
+  border-radius: 50%;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: auto;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/paris_1280.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+#logo-img {
+  background: url('../images/logo_vousparlez_200px.png') no-repeat;
+  width: 200px;
+  height: 116px;
+  margin: 5px 5px 5px 0;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo_vousparlez_200px.png') no-repeat;
+    width: 200px;
+    height: 116px;
+    margin: 5px 5px 5px 0;
+  }
+
+  #nav-list a{
+    font-size: 14px;
+  }
+
+  .navbar-brand h1{
+    font-size: 24px;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/paris_1280.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #logo-img {
+    background: url('../images/logo_vousparlez_200px.png') no-repeat;
+    width: 200px;
+    height: 116px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .container .jumbotron {
+    background: url('../images/paris_1280.jpg') no-repeat;
+    height: 432px;
+  }
+
+  #nav-list a{
+    font-size: 14px;
+  }
+
+  .navbar-brand h1{
+    font-size: 24px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo_vousparlez_50px.png') no-repeat;
+    width: 100px;
+    height: 60px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #methods, #about-me {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+}
+
+#menu-categories-title > br{
+  margin-bottom: 15px;
+}
+
+#menu-categories-title span{
+
+}
+
+
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 4vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #methods, #about-me {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+  /* End Home page */
+  /********** End of super extra small devices Only :-) (e.g., iPhone 4) **********/
+
+  /* about-me page */
+
+
+  /* end about-me page */
+
+
+  /* methods page */
+
+  .methods-table{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: min(1600px, 100%);
+    justify-content: space-evenly;
+  }
+
+  #whytolearn{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(65, 65, 236), white, red);
+    color: black;
+    font-weight: 600;
+  }
+
+
+  .card{
+    max-width: 360px;
+    background-color: rgb(45, 45, 226);
+    margin: 10px 10px;
+    overflow: hidden;
+    color: white;
+   font-weight: 600;
+   text-align: center;
+   border-radius:  5px 5px;
+   padding: 0;
+
+
+  }
+
+  .card-header{
+    background-color:rgb(153, 43, 43);
+    display: inline-block;
+    color: #E7E7E7;
+    padding: 10px 10px;
+    border-radius:  10px 10px;
+  }
+
+  .card .card-header p{
+    padding: 20px;
+    margin: 50px;
+  }
+
+  .panel-footer .container .icons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap:wrap;
+  }
+
+
+  .panel-footer .fa{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    background: white;
+    color: #3B5998;
+    font-size: 35px;
+    width: 55px;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    align-items: center;
+  }
+  
+  /* Twitter */
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+
+  .card:hover{
+    background-color: tomato;
+    border: solid 1px;
+    border-color: white;
+  }
+
+    /* Pricing */
+
+  section.pricing {
+    background: linear-gradient(to right, blue, white, red);
+
+  }
+  
+  .pricing .card-body {
+
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+
+  section.pricing .card-body:hover{
+    background-color: black;
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.9;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(117, 68, 68, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+  @media (min-width: 573px) {
+    .pricing .card{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(117, 68, 68, 0.3);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 346px) {
+    .pricing .card{
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(117, 68, 68, 0.3);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+#intro {
+    height: 100%;
+}
+
+#intro {
+    background: url("/images/1.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #c60063;
+  color: #c60063;
+}
