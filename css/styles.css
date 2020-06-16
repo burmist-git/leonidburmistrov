@@ -220,14 +220,14 @@ h3.menu-item-title {
 
 
 /********** Large devices only **********/
-/*
+
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('../images/work.png') no-repeat;
     height: 1075px;
   }
 }
-*/
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
