@@ -220,32 +220,26 @@ h3.menu-item-title {
 
 
 /********** Large devices only **********/
+"
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('../images/work.png') no-repeat;
     height: 1075px;
   }
 }
-
-"
-#logo-img {
-  background: url('../images/logo_vousparlez_200px.png') no-repeat;
-  width: 200px;
-  height: 116px;
-  margin: 5px 5px 5px 0;
-}
 "
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  #logo-img {
+"
+    #logo-img {
     background: url('../images/work.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
   }
-
+"
   #nav-list a{
     font-size: 14px;
   }
