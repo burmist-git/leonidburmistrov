@@ -217,8 +217,6 @@ h3.menu-item-title {
 /* END SINGLE CATEGORY PAGE */
 
 
-
-
 /********** Large devices only **********/
 
 @media (min-width: 1200px) {
@@ -227,7 +225,6 @@ h3.menu-item-title {
     height: 1075px;
   }
 }
-
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -250,10 +247,10 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-/*  .container .jumbotron {
-    background: url('../images/paris_1280.jpg') no-repeat;
+  .container .jumbotron {
+    background: url('../images/work.npg') no-repeat;
     height: 558px;
-  }*/
+  }
   /* End Home Page */
 }
 
@@ -268,12 +265,12 @@ h3.menu-item-title {
     margin: 5px 5px 5px 0;
   }
 */
-  /*
+
   .container .jumbotron {
-    background: url('../images/paris_1280.jpg') no-repeat;
+    background: url('../images/work.png') no-repeat;
     height: 432px;
   }
- */
+
   
   #nav-list a{
     font-size: 14px;
