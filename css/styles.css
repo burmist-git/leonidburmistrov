@@ -272,10 +272,10 @@ h3.menu-item-title {
   /* End Header */
 
   /* Home Page */
-  .container .jumbotron {
+/*  .container .jumbotron {
     background: url('../images/paris_1280.jpg') no-repeat;
     height: 558px;
-  }
+  }*/
   /* End Home Page */
 }
 
@@ -289,11 +289,13 @@ h3.menu-item-title {
     margin: 5px 5px 5px 0;
   }
 
+  /*
   .container .jumbotron {
     background: url('../images/paris_1280.jpg') no-repeat;
     height: 432px;
   }
-
+ */
+  
   #nav-list a{
     font-size: 14px;
   }
