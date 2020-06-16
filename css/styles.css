@@ -12,13 +12,6 @@ body {
   border: 0;
 }
 
-"#logo-img {
-  background: url('../images/logo_vousparlez.png') no-repeat;
-  width:255px;
-  height:150px;
-  margin: 10px 15px 10px 0;
-}"
-
 .navbar-brand {
   padding-top: 25px;
 }
@@ -131,15 +124,6 @@ body {
 }
 #methods:hover, #about-me:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #0816ce;
-}
-#methods {
-  background: url('../images/methods.png') no-repeat;
-  background-position: center;
-}
-#about-me {
-  background: url('../images/about-me.png') no-repeat;
-  background-position: center;
-
 }
 #methods span, #about-me span, #map-tile span {
   position: absolute;
@@ -256,7 +240,7 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/logo_vousparlez_200px.png') no-repeat;
+    background: url('../images/work.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
@@ -283,7 +267,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   #logo-img {
-    background: url('../images/logo_vousparlez_200px.png') no-repeat;
+    background: url('../images/work.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
@@ -310,7 +294,7 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
   #logo-img {
-    background: url('../images/logo_vousparlez_50px.png') no-repeat;
+    background: url('../images/work.png') no-repeat;
     width: 100px;
     height: 60px;
     margin: 5px 5px 5px 0;
