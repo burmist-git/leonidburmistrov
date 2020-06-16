@@ -1,5 +1,5 @@
 # **My personal site**
 https://leonidburmistrov.com/
 
-# Acknowledge.
+# Acknowledge
 Hryhorenko Oleksandr : https://github.com/hryhorenkolab
