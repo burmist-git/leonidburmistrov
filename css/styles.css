@@ -221,8 +221,8 @@ h3.menu-item-title {
 
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/work.png') no-repeat;
-    height: 1075px;
+    background: url('../images/work-1200px.png') no-repeat;
+    height:899px;
   }
 }
 
@@ -231,7 +231,7 @@ h3.menu-item-title {
   /* Header */
 /*
     #logo-img {
-    background: url('../images/work.png') no-repeat;
+    background: url('../images/work-1200px.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
@@ -248,8 +248,8 @@ h3.menu-item-title {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/work.npg') no-repeat;
-    height: 558px;
+    background: url('../images/work-1200px.png') no-repeat;
+    height: 625px;
   }
   /* End Home Page */
 }
@@ -257,18 +257,11 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-/*
-    #logo-img {
-    background: url('../images/work.png') no-repeat;
-    width: 200px;
-    height: 116px;
-    margin: 5px 5px 5px 0;
-  }
-*/
+
 
   .container .jumbotron {
-    background: url('../images/work.png') no-repeat;
-    height: 432px;
+    background: url('../images/work-1200px.png') no-repeat;
+    height: 375px;
   }
 
   
@@ -284,15 +277,12 @@ h3.menu-item-title {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
-/*
-    #logo-img {
-    background: url('../images/work.png') no-repeat;
-    width: 100px;
-    height: 60px;
-    margin: 5px 5px 5px 0;
+
+  .container .jumbotron {
+    background: url('../images/work-1200px.png') no-repeat;
+    height:300px;
   }
-*/
+
     
   .navbar-brand {
     padding-top: 10px;
