@@ -220,26 +220,26 @@ h3.menu-item-title {
 
 
 /********** Large devices only **********/
-"
+/*
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('../images/work.png') no-repeat;
     height: 1075px;
   }
 }
-"
+*/
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-"
+/*
     #logo-img {
     background: url('../images/work.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
   }
-"
+*/
   #nav-list a{
     font-size: 14px;
   }
@@ -260,13 +260,14 @@ h3.menu-item-title {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  #logo-img {
+/*
+    #logo-img {
     background: url('../images/work.png') no-repeat;
     width: 200px;
     height: 116px;
     margin: 5px 5px 5px 0;
   }
-
+*/
   /*
   .container .jumbotron {
     background: url('../images/paris_1280.jpg') no-repeat;
@@ -287,13 +288,15 @@ h3.menu-item-title {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-  #logo-img {
+/*
+    #logo-img {
     background: url('../images/work.png') no-repeat;
     width: 100px;
     height: 60px;
     margin: 5px 5px 5px 0;
   }
-
+*/
+    
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
