@@ -486,6 +486,13 @@ h3.menu-item-title {
     color: white;
     align-items: center;
   }
+
+  /* Linkedin */
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+    align-items: center;
+  }
   
   /* Twitter */
   .fa-skype {
@@ -494,7 +501,7 @@ h3.menu-item-title {
   }
 
   .fa-google {
-    background: #dd4b39;
+    background: #006633;
     color: white;
   }
 
